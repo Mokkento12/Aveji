@@ -643,14 +643,15 @@ body {
   /* Hero */
 
   .hero {
-    max-width: 343px;
+    max-width: 100%;
+    margin: 0 auto;
   }
 
   .hero__top {
     margin: 0 auto;
-    margin-bottom: 220px;
     flex-direction: column;
     align-items: start;
+    margin-bottom: 24px;
   }
 
   .hero__text {
@@ -659,16 +660,31 @@ body {
 
   .hero__title {
     max-width: 343px;
-    height: 114px;
     font-size: 32px;
     margin-bottom: 20px;
   }
 
   .hero__desc {
     width: 328px;
-    height: 66px;
+    height: auto;
     font-size: 16px;
+    margin-bottom: 24px;
   }
 
+  .hero__bottom {
+    position: static;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .hero__img--left {
+    display: none;
+  }
+
+  .hero__img--right {
+    position: static;
+    width: 343px;
+    height: 261px;
+    background-size: cover;
+  }
 }
