@@ -619,7 +619,7 @@ body {
 /* Responsive */
 @media (max-width:375px) {
   .container {
-    max-width: 375px;
+    max-width: 344px;
     margin: 0 auto;
   }
 
@@ -665,7 +665,7 @@ body {
   }
 
   .hero__title {
-    max-width: 343px;
+    max-width: 100%;
     font-size: 32px;
     margin-bottom: 20px;
   }
@@ -741,5 +741,47 @@ body {
 
   .about__text--row:not(:last-child) {
     margin-bottom: 16px;
+  }
+
+  /* Steps */
+
+  .steps__container {
+    flex-direction: column;
+  }
+
+  .steps__title {
+    font-size: 28px;
+    line-height: 39px;
+    margin-bottom: 20px;
+  }
+
+  .steps__items {
+    width: 100%;
+  }
+
+  .steps__items--text {
+    margin-bottom: 28px;
+  }
+
+  .step {
+    flex-direction: column;
+    padding: 24px 0;
+  }
+
+  .step::after {
+    width: 329px;
+  }
+
+  .step__title {
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 33px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+  }
+
+  .step__text {
+    width: 100%;
+    font-size: 16px;
   }
 }
