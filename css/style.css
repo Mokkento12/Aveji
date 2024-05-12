@@ -745,6 +745,10 @@ body {
 
   /* Steps */
 
+  .steps {
+    margin-bottom: 48px;
+  }
+
   .steps__container {
     flex-direction: column;
   }
@@ -784,4 +788,77 @@ body {
     width: 100%;
     font-size: 16px;
   }
+
+  /* Projects */
+
+  .projects {
+    width: 100%;
+    height: auto;
+    margin-bottom: 48px;
+    overflow: hidden;
+  }
+
+
+  .project__title {
+    font-size: 28px;
+    line-height: 39px;
+    margin-bottom: 32px;
+  }
+
+  .projects__grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .project {
+    width: 100%;
+    height: auto;
+  }
+
+  .project__img {
+    width: 252px;
+    height: 328px;
+  }
+
+  /* Testimonials */
+
+  .testimonials {
+    margin-bottom: 48px;
+  }
+
+  .testimonials__title {
+    font-size: 28px;
+    line-height: 39px;
+    margin-bottom: 20px;
+  }
+
+  .testimonials__grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .testimonial__item {
+    padding: 37px 33px;
+  }
+
+  .testimonial {
+    height: auto;
+  }
+
+  .testimonial__icon {
+    width: 32px;
+    height: 25px;
+    margin-bottom: 36px;
+  }
+
+  .testimonial__item--title {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
 }
