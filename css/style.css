@@ -861,4 +861,57 @@ body {
     margin-bottom: 20px;
   }
 
+  /* Form */
+
+  .form__img {
+    display: none;
+  }
+
+  .form {
+    height: auto;
+  }
+
+  .form__title {
+    font-size: 28px;
+    line-height: 39px;
+    margin-bottom: 20px;
+  }
+
+  .form__text {
+    margin-bottom: 32px;
+  }
+
+  .input__form {
+    width: 342px;
+    height: 31px;
+    margin-bottom: 16px;
+  }
+
+  /* Footer */
+
+  .footer {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .footer__info {
+    align-items: center;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .footer__link {
+    margin-bottom: 8px;
+  }
+
+  .footer__link::after {
+    display: none;
+  }
+
+  .social {
+    margin-bottom: 24px;
+  }
 }
