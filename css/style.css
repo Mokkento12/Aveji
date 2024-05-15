@@ -78,6 +78,51 @@ body {
   margin-bottom: 8px;
 }
 
+.burger-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 14px 0;
+}
+
+.burger-icon {
+  display: block;
+  width: 24px;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+
+.burger-icon:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  position: absolute;
+  transition: transform 0.2s ease-in-out;
+}
+
+.burger-icon:after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 100%;
+  background-color: inherit;
+  position: absolute;
+  right: 0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.burger-icon:before {
+  top: -8px;
+}
+
+.burger-icon:after {
+  bottom: -8px;
+}
+
 /*.Hero*/
 
 .hero {
@@ -640,8 +685,19 @@ body {
     display: none;
   }
 
+  .nav__link.active {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+  }
+
   .contacts {
     display: none;
+  }
+
+  .burger-btn {
+    display: block;
   }
 
   /* Hero */
