@@ -688,7 +688,13 @@ body {
   .nav__link.active {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 
   .contacts {
