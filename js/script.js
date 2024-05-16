@@ -6,4 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
   burgerBtn.addEventListener("click", function () {
     navLinks.classList.toggle("active");
   });
+
+  const swiper = new Swiper(".swiper", {
+    // Optional parameters
+    direction: "horizontal",
+    loop: true,
+  });
 });

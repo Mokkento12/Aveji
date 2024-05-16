@@ -28,6 +28,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+
 }
 
 /*.Header*/
@@ -372,6 +373,10 @@ body {
   align-items: start;
   justify-content: space-between;
   flex-direction: column;
+}
+
+.swiper {
+  display: none;
 }
 
 .project__title {
@@ -865,11 +870,20 @@ body {
     margin-bottom: 32px;
   }
 
+  .projects__container {
+    display: none;
+  }
+
   .projects__grid {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
 
+  .swiper {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   .project {
@@ -878,8 +892,8 @@ body {
   }
 
   .project__img {
-    width: 252px;
-    height: 328px;
+    width: 100%;
+    height: auto;
   }
 
   /* Testimonials */
